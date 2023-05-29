@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link'
 import {BsMeta} from 'react-icons/bs'
+import Logout from './Logout';
 
 type Props = {}
 
@@ -20,10 +21,7 @@ const Header = (props: Props) => {
                     <p className="font-bold text-3xl">Abhishek</p>
                 </div>
               </div>
-                <div>
-                <BsMeta className='text-blue-400' size={30} />
-
-                </div>
+               <Logout />
 
                 </header>
         )
