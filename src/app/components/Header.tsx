@@ -6,7 +6,7 @@ import Logout from './Logout';
 type Props = {}
 
 const Header = (props: Props) => {
-    const session = true;
+    const session = false;
 
     if( session){
         return(
@@ -34,7 +34,7 @@ const Header = (props: Props) => {
 
     <div className='flex items-center space-x-2 '>
         <BsMeta className='text-blue-400' size={30} />
-        <p className='uppercase text-blue-400'>Welcome to beta Messanger</p>
+        <p className='uppercase text-blue-400'>Welcome to Meta Messanger</p>
     </div>
     <Link href='/auth/signin' className='text-white bg-blue-400 hover:bg-blue-700 font-bold  px-2 py-4 rounded'>Sign In</Link>
     </div>
